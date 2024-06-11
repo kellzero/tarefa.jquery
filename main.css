@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    
+}
+
+
+
+header{
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    border-bottom: 16px solid black;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+    }
+
+.tarefa-adicionada{
+    display: list-item;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+ul{
+    list-style: disc;
+    list-style: inside;
+    padding: 0;
+    text-align: center;
+}
+
+.completed{
+    text-decoration: line-through;
+    
+}
